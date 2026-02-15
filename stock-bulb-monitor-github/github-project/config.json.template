@@ -1,0 +1,30 @@
+{
+  "zerodha": {
+    "api_key": "YOUR_KITE_API_KEY_HERE",
+    "api_secret": "YOUR_KITE_SECRET_HERE",
+    "user_id": "YOUR_ZERODHA_USER_ID",
+    "password": "YOUR_ZERODHA_PASSWORD",
+    "totp_secret": ""
+  },
+  "wiz": {
+    "bulb_ip": "192.168.1.XXX"
+  },
+  "settings": {
+    "check_interval_seconds": 300,
+    "market_open_time": "09:15",
+    "market_close_time": "15:30",
+    "timezone": "Asia/Kolkata",
+    "log_level": "INFO"
+  },
+  "color_thresholds": {
+    "huge_profit": 10000,
+    "profit": 0,
+    "loss": 0,
+    "huge_loss": -10000
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": ""
+  }
+}
